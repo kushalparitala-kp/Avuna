@@ -1,0 +1,24 @@
+# SEC EDGAR data fetching
+# Install as "edgartools" but import as "from edgar import ..."
+edgartools
+
+# LlamaIndex: core RAG framework + integrations
+llama-index-core
+llama-index-vector-stores-pinecone
+llama-index-llms-groq
+llama-index-embeddings-huggingface
+
+# Embedding model (all-MiniLM-L6-v2 runs via sentence-transformers)
+sentence-transformers
+
+# Pinecone serverless vector database client
+pinecone
+
+# Groq API client (fast LLM inference)
+groq
+
+# Streamlit web UI
+streamlit
+
+# Load .env files into os.environ
+python-dotenv

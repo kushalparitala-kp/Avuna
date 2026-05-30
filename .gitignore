@@ -1,0 +1,33 @@
+# Environment variables — NEVER commit this
+.env
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local data cache (SEC filings downloaded locally)
+data/
+
+# LlamaIndex local storage (indexes, embeddings cached locally)
+storage/
+
+# Log files
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Jupyter notebooks (if used for exploration)
+.ipynb_checkpoints/
